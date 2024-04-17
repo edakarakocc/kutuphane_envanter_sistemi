@@ -1,0 +1,28 @@
+Vergi Hukuku,Mualla Öncel,9757425869,Turhan,2013,hukuk,mevcut
+İdari Yargı Kararlarının Sonuçları ve Uygulanması,Ramazan Çağlayan,9758784730,Asil,2004,hukuk,mevcut
+Marka Hukuku: Temel Esaslar,Hayrettin Çağlar,9786051462486,Adalet Yayınevi,2013,hukuk,mevcut
+Uluslararası Hukukta Amirin Emri,Gökhan Güneysu,9786051522401,On İki Levha Yayıncılık,2015,hukuk,mevcut
+
+Yunus Terapi,Nevzat Tarhan,9786050809060,Timaş,2013,felsefe,mevcut
+Tasavvuf Terimleri Sözlüğü,Süleyman Uludağ,975359058x,Marifet Yayınları,1977,felsefe,mevcut
+
+Ağıtlar,Muhan Bali,9751717965,Kültür Bakanlığı,1997,edebiyat,mevcut
+Bana Uzun Mektuplar Yaz,Cihan Aktaş,9789753558792,İz Yayıncılık,2012,edebiyat,mevcut
+Belki Yine Gelirim,Ahmet Telli,9789752891985,Gibi Yayınları,2012,edebiyat,mevcut
+
+Kazak Masallarından Seçmeler,Ali Berat Alptekin,9753384858,Akçağ,2003,coğrafya,mevcut
+
+Biopsychology,John P. J. Pinel,9780205030996,Allyn and Bacon,2011,bilim,mevcut
+
+Şarkılar Seni Söyler,Tuğrul Ö. İnançer,9789759161217,Sufi Kitap,2007,müzik,mevcut
+
+The ILO and the world of work,ILO,9221031500,International Labour Office,1984,sosyal,mevcut
+
+Hatıralar:Tanıdıklarım,Arnold J Toynbee,9758740202,Klasik,2005,tarih,mevcut
+
+Kömür Jeolojisi,Güner Ünalan,9786054075720,Maden Tetkik ve Arama Genel Müdürlüğü,2010,teknoloji,mevcut
+Enerji ve Çevre Uyumu: Seminer,İstanbul Ticaret Odası,9789944602860,İstanbul Ticaret Odası,2008,teknoloji,mevcut
+Mass-transfer Operations,Robert Ewald Treybal,0070651760,McGraw-Hill,1981,teknoloji,mevcut
+
+İyi Vatandaş İyi İnsan,Hasan Ali Yücel,9786053604136,Türkiye İş Bankası,2011,eğitim,mevcut
+Okul Öncesi Eğitimde Özel Öğretim Yöntemleri,Fatma Alisinanoğlu,9786053641315,Pegem Akademi,201,eğitim,mevcut
