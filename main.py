@@ -135,12 +135,8 @@ def main():
                 elif kayit=='3':
                     break
                 break
-        
+                
         elif yetkilendirme=='3':
-            deneme.kayit_sorgulama()
-            kayit = input("Bir seçenek giriniz: ")
-        
-        elif yetkilendirme=='4':
             break
         else:
             print("Yanlış seçimde bulundunuz.")
