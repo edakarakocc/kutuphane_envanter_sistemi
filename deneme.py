@@ -2,8 +2,7 @@ def kullanici():
     print( '''
         1-Personel
         2-Öğrenci
-        3-Yönetici
-        4-Çıkış
+        3-Çıkış
         ''')
 def kayit_sorgulama():
     print( '''
