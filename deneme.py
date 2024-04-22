@@ -17,7 +17,6 @@ def menu_goruntule():
         3-Kitap sil
         4-Çıkış
           ''')
-    
 def menu_goruntule2():
      print('''
         1-Ödünç al
