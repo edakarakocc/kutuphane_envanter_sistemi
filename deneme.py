@@ -170,7 +170,7 @@ def kitap_iade():
     
     kitap_bulundu = False
     for i, satir in enumerate(icerik):
-        if kitap_adi in satir:
+        if kitap_adi in satir and 'iade edildi' not in satir:
             kitap_bulundu = True
             icerik[i] = satir.strip()+",iade edildi\n"
             break
