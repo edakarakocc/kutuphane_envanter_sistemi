@@ -95,7 +95,7 @@ def kitapsil():
             for satir in icerik:
                 satir_bolumleri = satir.strip().split(",")
                 
-                if kitap_adi not in satir_bolumleri[0].lower():
+                if kitap_adi != satir_bolumleri[0].lower():
                     dosya.write(satir)
 
     print("Kitap başarıyla silindi")
