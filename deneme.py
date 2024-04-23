@@ -40,7 +40,8 @@ def kitapekle():
 def kitap_guncelle():
     with open('kitaplar.txt','r') as dosya:
         icerik = dosya.readlines()
-    kitap_adi = input("Güncellemek istediğiniz kitabın adını girin: ")
+    kitap_adi = input("Güncellemek istediğiniz kitabın adını girin: ").lower()
+    
     print('''
         1- Kitap Adı
         2- Yazar Adı
@@ -49,38 +50,41 @@ def kitap_guncelle():
         5- Yayın Yılı
         6- Kitap Türü
         ''')
+    
     secim = input("Hangi bilgiyi güncellemek istediğinizi seçin:")
+    
     with open('kitaplar.txt','w') as dosya:
+        kitap_bulundu = False
         for satir in icerik:
             satir_bolumleri = satir.strip().split(",")
-            if kitap_adi in satir_bolumleri[0].lower():
+            
+            if kitap_adi == satir_bolumleri[0].lower():
+                kitap_bulundu = True
                 if secim == '1':
                     guncel_bilgi= input("Güncel kitap adını giriniz: ")
-                    satir_bolumleri[0]=guncel_bilgi
                 elif secim == '2':
                     guncel_bilgi = input("Güncel yazar adını giriniz:")
-                    satir_bolumleri[1]=guncel_bilgi
                 elif secim == '3':
                     guncel_bilgi = input("Güncel ISBN numarasını giriniz:")
-                    satir_bolumleri[2]=guncel_bilgi
                 elif secim == '4':
                     guncel_bilgi = input("Güncel yayınevini giriniz: ")
-                    satir_bolumleri[3]=guncel_bilgi
                 elif secim == '5':
                     guncel_bilgi = input("Guncel yayın yılını giriniz: ")
-                    satir_bolumleri[4]=guncel_bilgi
                 elif secim == '6':
                     guncel_bilgi = input("Guncel kitap türünü giriniz: ")
-                    satir_bolumleri[5]=guncel_bilgi
                 else:
                     print("Yanlış tercihte bulundunuz.")
-                        
+                    break
+                
+                satir_bolumleri[int(secim)-1] = guncel_bilgi        
                 dosya.write(",".join(satir_bolumleri)+ "\n")
                 print("Kitap başarıyla güncellendi.")
                 
             else:
                 dosya.write(satir)
-    print("Güncellenecek kitap bulunamadı.")
+        
+        if not kitap_bulundu:
+            print("Güncellenecek kitap bulunamadı.")
 
 
 def kitapsil():
