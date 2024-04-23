@@ -13,7 +13,6 @@ def main():
                 
                 if kayit=='1':
                     if uyekontrol.personel_kontrol():
-                        print("\nAsağida menu ekrani bulunmaktadir")
                         while True:
                             deneme.menu_goruntule()
                             tercih=input("Bir seçenek girin: ")
@@ -37,7 +36,7 @@ def main():
                                 
                 elif kayit=='2':
                     uye_ekleme.personel_ekle()
-                    print("\n\n\nBaşarili bir sekilde kayıt tamamlandi.\n\nAsagıda menu ekrani bulunmaktadir.")
+                    print("\n\nBaşarıyla kayıt olundu.")
                     while True:
                         deneme.menu_goruntule()
                         tercih=input("Bir seçenek girin: ")
@@ -88,7 +87,7 @@ def main():
                 
                 elif kayit=='2':
                     uye_ekleme.ogrenci_ekle()
-                    print("Başarıyla kayıt olundu.\n\nAsagıda menu ekrani bulunmaktadir.")
+                    print("\n\nBaşarıyla kayıt olundu.")
                             
                     while True:
                         deneme.menu_goruntule2()
